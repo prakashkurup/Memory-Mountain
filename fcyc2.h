@@ -30,7 +30,7 @@ double get_min();
 int has_converged(int k, double epsilon, int maxsamples);
 
 /* What is error of current measurement */
-double err(int k);
+//double err(int k);
 
 /*************  Try other clocking methods *****************/
 

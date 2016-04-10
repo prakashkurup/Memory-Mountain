@@ -1,6 +1,6 @@
 /* Compute time used by a function f that takes two integer args */
 #include <stdlib.h>
-#include "sys/times.h"
+#include <sys/times.h>
 #include <stdio.h>
 
 #include "clock.h"
@@ -62,7 +62,7 @@ double get_min()
 }
 
 /* What is relative error for kth smallest sample */
-double err(int k)
+double errk(int k)
 {
   if (samplecount < k)
     return 1000.0;
