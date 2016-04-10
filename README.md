@@ -12,5 +12,5 @@ $ gcc ./main > sample.txt
 Plot the generated data in 3D using gnuplot. You can use the .gnuplot file which contains the commands to create and store an image file by running the following command in the terminal:
 $ gnuplot mountain.gnuplot
 
-# Misc
+# Try this out
 Change the maximum stride to 32 and 16 in the main.c and plot the data for each generated data.
