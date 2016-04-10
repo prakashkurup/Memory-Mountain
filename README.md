@@ -1,5 +1,5 @@
 # Memory-Mountain
-Visualize read throughput versus temporal and spatial locality as a benchmark.
+Visualize read throughput versus temporal and spatial locality as a benchmark of your system.
 ![alt tag](https://github.com/prakashkurup/Memory-Mountain/blob/master/m64.png)
 
 # Instructions
@@ -13,4 +13,4 @@ Plot the generated data in 3D using gnuplot. You can use the .gnuplot file which
 $ gnuplot mountain.gnuplot
 
 # Try this out
-Change the maximum stride to 32 and 16 in the main.c and plot the data for each generated data.
+Change the maximum stride to 32 and 16 in the main.c and plot for each generated data and note the difference.
